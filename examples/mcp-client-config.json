@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fieldwork-public": {
+      "type": "http",
+      "url": "https://fieldwork-remote-desk.builtinlagos.workers.dev/mcp/public"
+    }
+  }
+}
