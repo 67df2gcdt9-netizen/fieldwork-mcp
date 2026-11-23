@@ -15,7 +15,7 @@ Fieldwork MCP is a live, remote Model Context Protocol (MCP) service hosted on C
 
 Use the **full endpoint** to connect an account. Your AI assistant should discover OAuth metadata and direct you to Fieldwork's consent screen. Review requested scopes carefully. Never paste your Fieldwork account key into an AI chat: enter it **only on Fieldwork's own authorization page** when prompted.
 
-For step-by-step client setup, see [Connecting clients](docs/CONNECT.md).
+For step-by-step client setup, see [Connecting clients](docs/CONNECT.md). You can also [run Fieldwork's read-only OAuth verification](https://fieldwork-remote-desk.builtinlagos.workers.dev/mcp/verify) while signed in to your own Fieldwork account. This verifies the Fieldwork OAuth flow, but does not replace a separate test with your AI assistant.
 
 ## What it does
 

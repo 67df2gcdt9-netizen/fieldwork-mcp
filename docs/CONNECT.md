@@ -52,6 +52,12 @@ Client-specific commands may change; use the current MCP integration documentati
 
 **Do not interpret `GET /oauth/register` returning 404 as missing registration support:** registration is a POST endpoint.
 
+## Verify OAuth safely
+
+Sign into Fieldwork and open the [OAuth verification page](https://fieldwork-remote-desk.builtinlagos.workers.dev/mcp/verify). Click **Start secure verification**, review read-only permissions, and approve on Fieldwork's consent page. The verifier attempts code exchange, private profile/CV reads, refresh-token rotation and revocation without uploading documents or contacting employers.
+
+This in-browser verifier tests Fieldwork itself; it does **not** independently prove an external Claude or ChatGPT connection. An additional test in that client is still required.
+
 ## Disconnect
 
 After signing into Fieldwork, visit [Manage AI assistants](https://fieldwork-remote-desk.builtinlagos.workers.dev/oauth/connections) and revoke a client. Use a trusted browser and your own account session.
